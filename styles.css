@@ -1,0 +1,97 @@
+body {
+  text-align: center;
+  background-color: #011f3f;
+}
+
+#level-title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 3rem;
+  margin:  5%;
+  color: #FEF2BF;
+
+}
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+
+}
+
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border-radius: 20%;
+  
+}
+
+
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.red {
+  background-color: rgb(255, 0, 0);
+  /* transition: linear 5s ;
+  border-radius: 50px; */
+  box-shadow: inset 20px 20px 19px #6e1b1b,
+              inset -20px -20px 19px #ff4343;
+}
+
+.green {
+  /* border-radius: 50px;
+ transition: 0.5s linear; */
+  background: #31c12f;
+  box-shadow: inset 20px 20px 19px #1c6e1b,
+              inset -20px -20px 19px #46ff43;
+  
+}
+
+.blue {
+  /* border-radius: 50px;
+  transition-duration: 0.2s; */
+  background: #4c2fc1;
+  box-shadow: inset 20px 20px 19px #2b1b6e,
+              inset -20px -20px 19px #6d43ff;
+}
+
+.yellow {
+  /* border-radius: 50px;
+  transition-duration: 0.2s; */
+  background: #b0c12f;
+  box-shadow: inset 20px 20px 19px #646e1b,
+              inset -20px -20px 19px #fcff43;
+            }
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+  
+}
+/* #level-titel .rubik-wet-paint-regular {
+
+} */
+
+
+.yellow:hover{
+  box-shadow:  20px 20px 19px #646e1b,
+               -20px -20px 19px #fcff43;
+}
+.red:hover{
+
+    box-shadow:  20px 20px 19px #6e1b1b,
+                 -20px -20px 19px #ff4343;
+  }
+  .green:hover{
+
+    box-shadow:  20px 20px 19px #1c6e1b,
+                 -20px -20px 19px #46ff43;
+  }
+  .blue:hover{
+  box-shadow:  20px 20px 19px #2b1b6e,
+               -20px -20px 19px #6d43ff;
+  } 
